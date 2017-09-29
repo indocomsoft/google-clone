@@ -1,0 +1,129 @@
+body {
+	font-family: arial;
+	font-size: small;
+	margin: 0px 0px 0px 0px;
+}
+a {
+	text-decoration:none;
+}
+
+a.lang {
+	color:blue;
+	margin-right:5px;
+}
+
+a.head {
+	color: #555555;
+}
+
+a.foot {
+	color: #555555;
+	margin-right:20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+span.top {
+	display:inline-block;
+	margin:5px;
+	vertical-align: middle;
+}
+
+input {
+	border-radius: 2px;
+}
+
+input[type=button] {
+	
+	padding:7px 15px 7px 15px;
+	font-weight: bold;
+
+	display:inline-block;
+	appearance: none;
+	border:none;
+}
+
+input[type=text] {
+	font-size:medium;
+	width:40%;
+	padding:10px 15px 10px 15px;
+	appearance: none;
+	border:none;
+	background-color: white ;
+	background-image: url(img/mic.png);
+	background-repeat: no-repeat;
+	background-position: 98%;
+	background-size:18pt;
+	box-shadow: 1px 1px 4px 2px #DDDDDD;
+}
+
+.signin {
+	color:white;
+	background-color: #4486F9;
+}
+
+input.button {
+	color:#555555;
+	background-color: #EEEEEE;
+	padding: 10px 15px 10px 15px;
+}
+
+div.top {
+	top:0px;
+	margin:10px;
+	float: right;
+
+}
+
+.grid {
+	display:flex;
+}
+
+.cell {
+	height: 4px;
+	width: 4px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	background-color: #AAAAAA;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	text-align: center;
+}
+
+.logo {
+	width: 20%;
+}
+
+.mic {
+	position:relative;
+	left:-50px;
+	display:inline-block;
+	max-height:20px;
+	vertical-align: middle;
+}
+
+.main-container {
+	margin-bottom: 30px;
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	padding: 15px 25px 15px 25px;
+	bottom:0px;
+	text-align: left;
+	background-color: #EEEEEE;
+}
+span.left {
+	float:left;
+}
+span.right {
+	margin-right:20px;
+	float:right;
+}
